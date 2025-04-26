@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/lara-team-starter",
+    "name": "janakkapadia/lara-team-starter",
     "version": "0.1.1",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",

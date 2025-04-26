@@ -123,5 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'password_validation' => \Illuminate\Validation\Rules\Password::default()->min(10)->mixedCase()->letters()->numbers()->symbols(),
+    'password_validation' => \Illuminate\Validation\Rules\Password::default()->min(5),
+    //'password_validation' => \Illuminate\Validation\Rules\Password::default()->min(10)->mixedCase()->letters()->numbers()->symbols(),
 ];
